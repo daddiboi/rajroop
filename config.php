@@ -20,9 +20,9 @@
 
 ## Database settings
 $host = 'localhost';
-$database = 'gr8-lite';
-$username = '';
-$password = '';
+$database = 'sql12595367';
+$username = 'sql12595367';
+$password = 'justchillA1!';
 
 ## Faucet id, this should be changed if you have more than one installation.
 $faucetID = 'gr8-lite';
