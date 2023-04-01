@@ -51,7 +51,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #d8bf36;
+  background-color: #002466;
   top: 50%;
   right: -30px;
   border-radius: 100%;
@@ -63,7 +63,7 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  background-image: url(../images/hero-bg.png);
+  background-image: url(../images/a.png);
   background-size: cover;
   background-position: bottom;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  background-color: #d8bf36;
+  background-color: #002466;
 }
 
 a,
@@ -264,13 +264,13 @@ a:focus {
 .slider_section .detail_box .btn-box a.btn-1 {
   display: inline-block;
   padding: 8px 0;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
 }
 
 .slider_section .detail_box .btn-box a.btn-1:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .slider_section .detail_box .btn-box a.btn-2 {
@@ -325,7 +325,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: center;
-  background-color: #d8bf36;
+  background-color: #00a44d;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
@@ -360,7 +360,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
   margin: 25px 0 45px 0;
@@ -440,13 +440,13 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
 }
 
 .service_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .work_section .heading_container {
@@ -506,13 +506,13 @@ a:focus {
 .work_section .btn-box a {
   display: inline-block;
   padding: 10px 25px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
 }
 
 .work_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .team_section {
@@ -604,13 +604,13 @@ a:focus {
 .team_section .btn-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
 }
 
 .team_section .btn-box a:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .client_section .box {
@@ -662,7 +662,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
-  background-color: #d8bf36;
+  background-color: #002466;
 }
 
 .client_section .carousel_btn-container .carousel-control-prev:hover,
@@ -711,7 +711,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 30px;
   text-transform: uppercase;
@@ -724,7 +724,7 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .info_section {
@@ -807,7 +807,7 @@ a:focus {
   border-radius: 100%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #d8bf36;
+  background-color: #002466;
 }
 
 .info_section .info_links ul li a:hover {
@@ -854,7 +854,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #d8bf36;
+  background-color: #002466;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 15px;
@@ -865,7 +865,7 @@ a:focus {
 }
 
 .info_section .info_form form button:hover {
-  background-color: #e0cd61;
+  background-color: #002466;
 }
 
 .info_section .info_form .social_box {
@@ -900,5 +900,26 @@ a:focus {
 
 .footer_section a {
   color: #ffffff;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.imgfeed{
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
