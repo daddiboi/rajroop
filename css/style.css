@@ -63,7 +63,7 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  background-image: url(../images/a.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   background-position: bottom;
 }
