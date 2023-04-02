@@ -264,7 +264,7 @@ a:focus {
 .slider_section .detail_box .btn-box a.btn-1 {
   display: inline-block;
   padding: 8px 0;
-  background-color: #002466;
+  background-color: #213897;
   color: #ffffff;
   border-radius: 30px;
 }
@@ -416,7 +416,7 @@ a:focus {
 }
 
 .service_section .service_container .box .img-box img {
-  width: 75px;
+  width: 65%;
 }
 
 .service_section .service_container .box .detail-box {
@@ -444,6 +444,7 @@ a:focus {
   color: #ffffff;
   border-radius: 30px;
 }
+
 
 .service_section .btn-box a:hover {
   background-color: #002466;
@@ -921,5 +922,12 @@ a:focus {
 }
 .imgfeed{
   border-radius: 30px;
+}
+.service_section{
+  background-image: url(../images/a.jpg);
+}
+.img-box{
+ 
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */
