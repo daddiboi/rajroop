@@ -72,26 +72,24 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="#maploc"> Location</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#products"> Products </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contactLink">Contact Us</a>
+                  <a class="nav-link" href="#contactLink">Message us</a>
                 </li>
               </ul>
             </div>
             <div class="quote_btn-container ">
-              <a href="tel:5554280940">
+              <a href="tel:9888739782">
                 <img src="images/call.png" alt="">
                 <span>
                   Call : +91 9888739782
                 </span>
               </a>
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+             
             </div>
           </div>
         </nav>
@@ -114,18 +112,18 @@
                       Rajroop feed is 100% pure cattle feed. Our feed is approved by expert doctors & stands out for its quality.
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Contact Us
+                      <a href="tel:9888739782" class="btn-1">
+                        Contact
                       </a>
                       <a  class="btn-2" href="#contactLink">
-                        Get A Quote
+                       Ask us
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img class="imgfeed" src="images/10000.jpg" alt="">
+                    <img class="imgfeed" src="images/main.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -336,7 +334,7 @@
 
   <!-- client section -->
 
-  <section class="client_section layout_padding-bottom">
+  <section id="maploc" class="client_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
         <h2 style="margin-top: 50px;">
@@ -412,33 +410,33 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
       <div class="container">
         <div class="heading_container">
           <h2>
-            Get In touch
+             Message Us
           </h2>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <form>
+            <form id="send1">
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input type="text" class="form-control" id="inputName4" placeholder="Name ">
+                  <input type="name" class="form-control" id="name" placeholder="Name ">
                 </div>
                 <div class="form-group col-md-6">
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
+                  <input type="email" class="form-control" id="email" placeholder="Email id">
                 </div>
 
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" id="inputSubject4" placeholder="Subject">
+                  <input type="text" class="form-control" id="inputSubject4" placeholder="Phone number">
                 </div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" id="inputMessage" placeholder="Message">
               </div>
               <div class="d-flex justify-content-center">
-                <button type="submit" class="">Send</button>
+                <button type="submit" id="send">Send</button>
               </div>
             </form>
           </div>
@@ -475,10 +473,10 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
                   <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="">
-                  <a class="" href="about.html"> About</a>
+                  <a class="" href="#maploc"> Location</a>
                 </li>
                 <li class="">
-                  <a class="" href="service.html"> Services </a>
+                  <a class="" href="#products"> Products </a>
                 </li>
                 <li class="">
                   <a class="" href="#contactLink">Contact Us</a>
@@ -499,7 +497,7 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
                   +91 9888739782
                 </p>
               </a>
-              <a href="">
+              <a href="mailto:rajroopfeed@gmail.com">
                 <div class="img-box">
                   <img src="images/envelope-white.png" width="18px" alt="">
                 </div>
@@ -509,7 +507,7 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
               </a>
             </div>
           </div>
-          <div class="col-md-3">
+          <!--<div class="col-md-3">
             <div class="info_form ">
               <h4>
                 NEWSLETTER
@@ -535,7 +533,7 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
                 </a>
               </div>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
@@ -561,5 +559,62 @@ Our feed Factory location is shown in the map below . Mill is situated at : Vill
   <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
+
+<!-- 
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js"></script>
+<script src="main.js"></script>
+ -->
+
+ <script src=
+ "https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
+     </script>
+
+
+<script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyCZ5VDMsJOTUg1KkIppG-29i_v7vd0fBDE",
+  authDomain: "rajroop-f3463.firebaseapp.com",
+  projectId: "rajroop-f3463",
+  storageBucket: "rajroop-f3463.appspot.com",
+  databaseURL: "https://rajroop-f3463-default-rtdb.firebaseio.com",
+  messagingSenderId: "613722170029",
+  appId: "1:613722170029:web:12e36d87069499519cdc24",
+  measurementId: "G-QX03R6T46N"
+};
+
+  firebase.initializeApp(firebaseConfig);
+
+  var messagesRef = firebase.database()
+      .ref('raajroop');
+   
+  document.getElementById('send1')
+      .addEventListener('submit', submitForm);
+
+  function submitForm(e) {
+      e.preventDefault();
+
+      // Get values
+      var name = getInputVal('name');
+      var email = getInputVal('email');
+
+      saveMessage(name, email);
+      document.getElementById('send1').reset();
+  }
+
+  // Function to get form values
+  function getInputVal(id) {
+      return document.getElementById(id).value;
+  }
+
+  // Save message to firebase
+  function saveMessage(name, email) {
+      var newMessageRef = messagesRef.push();
+      newMessageRef.set({
+          name: name,
+          email: email,
+      });
+  }
+</script>
+
 
 </html>
